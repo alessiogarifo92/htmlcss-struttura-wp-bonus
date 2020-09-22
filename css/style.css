@@ -1,0 +1,93 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background-image: url(../img/wooden-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Verdana, Arial;
+}
+
+
+/* pagina */
+#container {
+  width: 60%;
+  margin: 10px auto;
+  /* debug *
+  height: 200px;
+  background-color: red;
+  /* fine debug */
+}
+
+
+/* header */
+header {
+  margin-bottom: 20px;
+  /* debug */
+  height: 200px;
+  background-color: green;
+  /* fine debug */
+}
+
+#front-img{
+  max-height: 100px;
+}
+
+/* parte principale */
+
+main {
+  /* debug
+  background-color: yellow;
+  /* fine debug */
+}
+
+
+aside {
+  float: left;
+  width: 20%;
+  /* debug
+  height: 200px;
+  background-color: lightblue;
+  /* fine debug */
+}
+
+section {
+  float: left;
+  width: 50%;
+  margin: 0 5%;
+  /* debug
+  height: 400px;
+  background-color: blue;
+  /* fine debug */
+}
+
+.white-box {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #000;
+}
+
+
+
+
+/* footer */
+footer {
+  /* debug */
+  height: 100px;
+  background-color: red;
+  /* fine debug */
+}
