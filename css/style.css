@@ -35,13 +35,32 @@ body {
 header {
   margin-bottom: 20px;
   /* debug */
-  height: 200px;
-  background-color: green;
+  /* height: 200px; */
+  /* background-color: green; */
   /* fine debug */
 }
 
-#front-img{
-  max-height: 100px;
+#img-intestazione{
+  background-image: url(../img/intest-img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border: 5px solid white;
+}
+
+nav{
+  height: 50px;
+  background-color: darkgrey;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.buttons{
+  margin: 20px;
+  position: relative;
+  top: 20px;
 }
 
 /* parte principale */
@@ -88,6 +107,17 @@ section {
 footer {
   /* debug */
   height: 100px;
-  background-color: red;
+  background-color: white;
   /* fine debug */
+}
+
+hr{
+  border-color: lightgrey;
+  position: relative;
+  top: 20px;
+}
+
+.icons{
+  float: left;
+  margin: 40px 100px;
 }
